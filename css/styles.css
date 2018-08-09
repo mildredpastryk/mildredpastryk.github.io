@@ -1,0 +1,185 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  display: block;
+  padding-top: 60px;
+  margin: 0;
+  position: relative;
+  font-family: 'Lato', sans-serif;
+  background-image: url("https://thewallpaper.co/wp-content/uploads/2016/10/All-White-Background-for-Desktop-wallpaper-desktop-images-download-hd-windows-wallpaper-samsung-iphone-mac-1920x1200.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/*Typography*/
+ 
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+/*Styles for navigation*/
+
+.navbar {
+   background: radial-gradient(ellipse farthest-corner at right bottom, #FEDB37 0%, #FDB931 8%, #9f7928 30%, #8A6E2F 40%, transparent 80%),
+    radial-gradient(ellipse farthest-corner at left top, #FFFFFF 0%, #FFFFAC 8%, #D1B464 25%, #5d4a1f 62.5%, #5d4a1f 100%);
+   text-transform: uppercase;
+   letter-spacing: 0.05em;
+}
+
+.anchor {
+  padding-top: 50px;
+}
+
+.navbar-brand a {
+  color: #333300;
+}
+
+.navbar-inverse.navbar-nav>li>a  {
+  color: #f2f2f2;
+}
+
+/**** About ****/
+ 
+.profile {
+  box-shadow: 5px 5px #998100;
+  margin: 50px auto;
+}
+
+#about h1 {
+  color: #998100;
+  letter-spacing: 0.08em;
+}
+
+/**** Projects ****/
+
+#work-title {
+  text-align: center;
+  letter-spacing: 4px;
+}
+
+#work-title h2 {
+  text-transform: uppercase;
+  color: #998100;
+}
+ 
+.work-img {
+  border: 1px solid #998100;
+  box-shadow:  5px 5px #998100;
+  display: block;
+  max-width: 500px;
+  margin: 10px auto;
+  position: relative; /* is needed for .info position: absolute to work */
+}
+ 
+.info {
+  position: absolute; /* let's  move the text around and not worry about the image */
+  top: 25%; /* position the text 15% away from the top */
+  margin: auto;
+  width: 100%;
+  color:#fff;
+  background-color: #998100;
+  letter-spacing:0.5em;
+  text-align: center;
+  line-height:1.6;
+  font-size: 1.25em;
+  display: none;
+}
+
+.proj-title {
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+.btn-default {
+  border-color: #998100;
+}
+
+/**** Contact ****/
+
+#contact {
+  background-image: url("../img/tel.jpg");
+  /*Add a background image*/
+  background-attachment: fixed;
+/* Give the background a fixed position does it not scroll when you scroll*/
+  background-size: cover;
+/*Have the background cover the entire div section*/
+  height: 100%;
+}
+
+#contact-info {
+  color: #000000;
+  display: inline-block;
+  text-align: center;
+}
+
+#contact h3:hover {
+  color:#0080FF;
+}
+
+#contact-info i {
+  color: #0080FF;
+  font-size: 2em;
+}
+
+#contact-info a {
+  padding-right: 10px;
+}
+
+.glyphicon-heart {
+  color: #FF69B4;
+  font-size: 1.5em;
+}
+
+.glyphicon-heart:hover {
+  color: #998100;
+}
+ 
+#form  {
+  margin-top: 10px;
+}
+
+textarea {
+  vertical-align: top;
+  display : block;
+  padding : 10px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  width: 100%;
+  overflow: auto;
+}
+
+.btn  {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#map {
+  height: 300px;
+  width: 95%;
+  margin: 25px auto;
+}
+
+/**** Footer ****/
+
+footer {
+  margin: 10px auto 0 auto;
+  width: 100%;
+  text-align:center;
+  padding-bottom: 10px;
+  color: #998100;
+}
+
+hr {
+  width: 100%;
+  margin: 2em auto;
+  border-style: inset;
+  color: #998100;
+}
